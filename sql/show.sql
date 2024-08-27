@@ -1,4 +1,3 @@
--- show tables;
 -- drop database hotel;
 
 
