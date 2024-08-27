@@ -1,6 +1,6 @@
 
 
-create database hotels;
+-- create database hotels;
 -- show databases;
 
 
