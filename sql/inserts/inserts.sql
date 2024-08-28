@@ -33,4 +33,7 @@
 -- (1, 2, '2023-11-10', '2023-11-15');
 
 
-select * from reservas;
+-- select * from reservas;
+
+
+-- use hotels;

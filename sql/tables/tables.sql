@@ -1,6 +1,6 @@
 
 
-
+--tabla usuarios
 CREATE TABLE usuarios(
     id INT PRIMARY KEY AUTO_INCREMENT,
     nombre varchar(255) NOT NULL,
@@ -8,16 +8,14 @@ CREATE TABLE usuarios(
     tipo ENUM("cliente", "administrador") NOT NULL
 );
 
-
-
+--tabla hoteles
 CREATE TABLE hoteles (
     id INT PRIMARY KEY AUTO_INCREMENT,
     nombre varchar(255) NOT NULL,
     ubicacion varchar(255) NOT NULL
 );
 
-
-
+--tabla habitaciones
 CREATE TABLE habitaciones (
     id INT PRIMARY KEY AUTO_INCREMENT,
     hotel_id int,
@@ -27,10 +25,7 @@ CREATE TABLE habitaciones (
     FOREIGN KEY (hotel_id) REFERENCES hoteles(id)
 );
 
-
-
-
-
+--tabla reservas
 create table reservas (
 id int PRIMARY KEY AUTO_INCREMENT,
 usuario_id int,
