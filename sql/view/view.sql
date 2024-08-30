@@ -1,3 +1,5 @@
+
+
 -- CREATE VIEW vista_reservas AS
 -- SELECT
 --     reservas.id AS reserva_id,
