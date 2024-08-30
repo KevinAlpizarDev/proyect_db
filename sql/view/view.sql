@@ -16,5 +16,3 @@
 -- JOIN hoteles ON habitaciones.hotel_id = hoteles.id;
 
 
-
--- select * from vista_reservas

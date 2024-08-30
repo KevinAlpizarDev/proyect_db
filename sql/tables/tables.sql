@@ -42,5 +42,7 @@
 -- FOREIGN KEY (habitacion_id) REFERENCES habitaciones(id)
 -- );
 
+
+
 -- ALTER TABLE habitaciones ADD COLUMN esta_reservada BOOLEAN DEFAULT FALSE;
 

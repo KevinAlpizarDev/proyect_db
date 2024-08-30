@@ -236,3 +236,8 @@
 -------------------------------------------------------------------
 
 
+
+-- select * 
+-- from usuarios
+-- inner join reservas 
+-- on usuarios.id = reservas.usuario_id;

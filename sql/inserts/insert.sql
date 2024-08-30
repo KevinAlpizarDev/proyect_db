@@ -22,8 +22,3 @@
 
 
 
-
-
-
-
--- select * from habitaciones
