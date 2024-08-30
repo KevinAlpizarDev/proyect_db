@@ -29,9 +29,8 @@
 -- );
 
 
+
 --tabla reservas
-
-
 -- create table reservas (
 -- id int PRIMARY KEY AUTO_INCREMENT,
 -- usuario_id int,
@@ -43,6 +42,4 @@
 -- );
 
 
-
--- ALTER TABLE habitaciones ADD COLUMN esta_reservada BOOLEAN DEFAULT FALSE;
 

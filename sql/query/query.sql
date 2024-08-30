@@ -6,7 +6,7 @@
 -- JOIN reservas r ON hab.id = r.habitacion_id
 -- GROUP BY h.nombre
 -- ORDER BY total_reservas DESC
--- LIMIT 5;
+-- LIMIT 2;
 
 
 -- ○ Consulta para contar cuántas habitaciones disponibles hay en un hotel específico en una
@@ -18,22 +18,22 @@
 
 
 -- ○ Consulta para buscar hoteles por nombre.
--- SELECT * FROM hoteles WHERE nombre LIKE '%Sol%';
+-- SELECT * FROM hoteles WHERE nombre LIKE '%taña%';
 
 
 -- Consulta para buscar hoteles cuya ubicación comienza con un texto específico.
--- SELECT * FROM hoteles WHERE ubicacion LIKE 'Mad%';
+-- SELECT * FROM hoteles WHERE ubicacion LIKE 'P%';
 
 
 -- ○ Consulta para buscar hoteles cuya ubicación termina con un texto específico.
--- SELECT * FROM hoteles WHERE ubicacion LIKE '%lona';
+-- SELECT * FROM hoteles WHERE ubicacion LIKE '%s';
 
 
 -- ○ Consulta para obtener las reservas de un cliente (por email) realizadas en el mes anterior.
 -- SELECT r.*
 -- FROM reservas r
 -- JOIN usuarios u ON r.usuario_id = u.id
--- WHERE u.email = 'juan@example.com' AND r.fecha_inicio BETWEEN DATE_SUB(DATE_FORMAT(CURDATE() ,'%Y-%m-01'), INTERVAL 1 MONTH) AND DATE_FORMAT(CURDATE() ,'%Y-%m-01');
+-- WHERE u.email = 'kevin@example.com' AND r.fecha_inicio BETWEEN DATE_SUB(DATE_FORMAT(CURDATE() ,'%Y-%m-01'), INTERVAL 1 MONTH) AND DATE_FORMAT(CURDATE() ,'%Y-%m-01');
 
 
 -- ○ Consulta para calcular el promedio de reservas diarias en un hotel.
@@ -62,6 +62,7 @@
 
 -- ○ Consulta para listar los hoteles que tienen habitaciones disponibles pero no han sido
 -- reservadas en el último mes.
+
 -- SELECT h.nombre
 -- FROM hoteles h
 -- JOIN habitaciones hab ON h.id = hab.hotel_id
