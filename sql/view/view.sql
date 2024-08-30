@@ -1,3 +1,5 @@
+
+
 -- CREATE VIEW vista_reservas AS
 -- SELECT
 --     reservas.id AS reserva_id,
@@ -14,3 +16,5 @@
 -- JOIN hoteles ON habitaciones.hotel_id = hoteles.id;
 
 
+
+-- select * from vista_reservas

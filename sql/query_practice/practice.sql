@@ -214,12 +214,14 @@
 
 
 
-SELECT habitaciones.id AS habitacion_id, hoteles.id AS hotel_id, habitaciones.hotel_id
-FROM habitaciones
-INNER JOIN hoteles
-ON habitaciones.hotel_id = hoteles.id;
+-- SELECT habitaciones.id AS habitacion_id, hoteles.id AS hotel_id, habitaciones.hotel_id
+-- FROM habitaciones
+-- INNER JOIN hoteles
+-- ON habitaciones.hotel_id = hoteles.id;
 
 -------------------------------------------------------------------
+-- join o inner join
+
 
 -------------------------------------------------------------------
 

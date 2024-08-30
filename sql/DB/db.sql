@@ -18,3 +18,4 @@
 
 -- select * from hoteles
 -- where not nombre = "Hotel Sol" and not ubicacion = "Madrid"
+
