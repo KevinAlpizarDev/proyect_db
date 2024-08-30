@@ -3,7 +3,6 @@
 -- ('Maria Mata', 'Maria@gmail.com', 'cliente');
 
 
-
 -- INSERT INTO hoteles (nombre, ubicacion) VALUES
 -- ('Hotel Montaña', 'Guanacaste'),
 -- ('Hotel Arena', 'Puntarenas');
@@ -18,6 +17,8 @@
 -- INSERT INTO reservas (usuario_id, habitacion_id, fecha_inicio, fecha_fin) VALUES
 -- (1, 1, '2024-07-01', '2024-07-05'),
 -- (2, 1, '2024-08-10', '2024-08-15');
+
+
 
 
 

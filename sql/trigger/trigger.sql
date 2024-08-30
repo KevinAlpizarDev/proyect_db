@@ -11,3 +11,4 @@
 -- END; //
 
 -- DELIMITER ;
+SHOW TRIGGERS;
