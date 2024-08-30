@@ -1,0 +1,1 @@
+SELECT * FROM hoteles WHERE ubicacion = 'Madrid';
