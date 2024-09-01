@@ -1,6 +1,6 @@
+use hotels;
+-- tabla usuarios
 
-
---tabla usuarios
 -- CREATE TABLE usuarios(
 --     id INT PRIMARY KEY AUTO_INCREMENT,
 --     nombre varchar(255) NOT NULL,
@@ -9,7 +9,11 @@
 -- );
 
 
---tabla hoteles
+
+
+
+
+-- tabla hoteles
 -- CREATE TABLE hoteles (
 --     id INT PRIMARY KEY AUTO_INCREMENT,
 --     nombre varchar(255) NOT NULL,
@@ -18,7 +22,8 @@
 
 
 
---tabla habitaciones
+-- tabla habitaciones
+
 -- CREATE TABLE habitaciones (
 --     id INT PRIMARY KEY AUTO_INCREMENT,
 --     hotel_id int,
@@ -29,8 +34,9 @@
 -- );
 
 
+-- tabla reservas
 
---tabla reservas
+
 -- create table reservas (
 -- id int PRIMARY KEY AUTO_INCREMENT,
 -- usuario_id int,
@@ -40,6 +46,3 @@
 -- FOREIGN KEY (usuario_id) REFERENCES usuarios(id),
 -- FOREIGN KEY (habitacion_id) REFERENCES habitaciones(id)
 -- );
-
-
-
