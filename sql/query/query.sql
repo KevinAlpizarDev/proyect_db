@@ -18,15 +18,15 @@
 -- WHERE h.hotel_id = 1 AND r.id IS NULL;
 
 -- ○ Consulta para buscar hoteles por nombre.
-SELECT * FROM hoteles WHERE nombre LIKE '%taña%';
+-- SELECT * FROM hoteles WHERE nombre LIKE '%taña%';
 
 
 -- Consulta para buscar hoteles cuya ubicación comienza con un texto específico.
-SELECT * FROM hoteles WHERE ubicacion LIKE 'P%';
+-- SELECT * FROM hoteles WHERE ubicacion LIKE 'P%';
 
 
 -- ○ Consulta para buscar hoteles cuya ubicación termina con un texto específico.
-SELECT * FROM hoteles WHERE ubicacion LIKE '%s';
+-- SELECT * FROM hoteles WHERE ubicacion LIKE '%s';
 
 
 -- ○ Consulta para obtener las reservas de un cliente (por email) realizadas en el mes anterior.
@@ -44,7 +44,7 @@ SELECT * FROM hoteles WHERE ubicacion LIKE '%s';
 -- GROUP BY r.fecha_inicio
 
 
--- 
+
 
 -- ○ Consulta para identificar el hotel con la mayor ocupación en el mes anterior.
 -- SELECT h.nombre, COUNT(r.id) AS total_reservas

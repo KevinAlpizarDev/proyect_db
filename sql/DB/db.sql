@@ -4,10 +4,12 @@
 
 
 
-
--- drop database hotels;
-
 -- use database hotels;
 
 
-create database hotels;
+-- drop database hotels;
+
+
+-- create database hotels;
+
+
